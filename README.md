@@ -49,6 +49,12 @@ Here are some examples of setting a variable:
 		<td>x</td>
 		<td>5 paragraphs of 15 to 300 words each; paragraphs are wrapped in &lt;p&gt; tags; each paragraph starts with capital letter and ends with period; paragraphs may contain additional punctuation</td>
 	</tr>
+	<tr>
+		<td>lipsumText</td>
+		<td>5 words|wordcaps</td>
+		<td>x</td>
+		<td>5 words; each word capitalized; may contain additional punctuation</td>
+	</tr>
 </table>
 
 Here is an example of using the variable we created above to insert the lorem ipsum text into a text field:
