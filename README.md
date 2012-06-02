@@ -69,6 +69,3 @@ Here is an example of using the variable we created above to insert the lorem ip
 # Future Improvements
 - add 'wordcaps' option to capitalize all words (useful for titles)
 - add 'nomarks' option to remove all punctuation remarks (useful for titles)
-- make count and type easier. e.g., "5 paragraphs" or "1 word"
-
-    This will give us more flexibility for additional variables.
