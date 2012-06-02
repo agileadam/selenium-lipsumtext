@@ -1,12 +1,12 @@
 Selenium.prototype.doLipsumText = function (options, varName) {
-    var length = 5, type = "words", useHtmlTags = false, opts = options.split("|"), i = 0;
-    for (i = 0; i < 3; i += 1) {
-        if (opts[i] && opts[i].match(/^\d+$/)) {
-            length = opts[i];
-        }
-
-        if (opts[i] && opts[i].match(/^(words|paragraphs)$/)) {
-            type = opts[i];
+    var length = 5, type = "word", useHtmlTags = false, opts = options.split("|"), i = 0;
+    for (i = 0; i < opts.length; i += 1) {
+        if (opts[i]) {
+            var countAndType = opts[i].match(/^(\d+) ?(word|paragraph)s?$/);
+            if (countAndType) {
+                length = countAndType[1];
+                type = countAndType[2];
+            }
         }
 
         if (opts[i] && opts[i].match(/^(htmltags)$/)) {
@@ -15,10 +15,10 @@ Selenium.prototype.doLipsumText = function (options, varName) {
     }
 
     switch (type) {
-    case "paragraphs":
+    case "paragraph":
         storedVars[varName] = lipsumParagraphs(length, useHtmlTags);
         break;
-    case "words":
+    case "word":
         storedVars[varName] = lipsumWords(length);
         break;
     default:

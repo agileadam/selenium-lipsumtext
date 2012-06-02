@@ -27,25 +27,25 @@ Here are some examples of setting a variable:
 	</tr>
 	<tr>
 		<td>lipsumText</td>
-		<td>words</td>
-		<td>x</td>
-		<td>15 to 300 words; entire string starts with capital letter and ends with period; string may contain additional punctuation</td>
-	</tr>
-	<tr>
-		<td>lipsumText</td>
-		<td>words|20</td>
+		<td>20 words</td>
 		<td>x</td>
 		<td>20 words; entire string starts with capital letter and ends with period; string may contain additional punctuation</td>
 	</tr>
 	<tr>
 		<td>lipsumText</td>
-		<td>paragraphs|3</td>
+		<td>1 paragraph</td>
+		<td>x</td>
+		<td>1 paragraphs of 15 to 300 words; paragraph starts with capital letter and ends with period; paragraph may contain additional punctuation</td>
+	</tr>
+	<tr>
+		<td>lipsumText</td>
+		<td>3 paragraphs</td>
 		<td>x</td>
 		<td>3 paragraphs of 15 to 300 words each; each paragraph starts with capital letter and ends with period; paragraphs may contain additional punctuation</td>
 	</tr>
 	<tr>
 		<td>lipsumText</td>
-		<td>paragraphs|5|htmltags</td>
+		<td>5 paragraphs|htmltags</td>
 		<td>x</td>
 		<td>5 paragraphs of 15 to 300 words each; paragraphs are wrapped in &lt;p&gt; tags; each paragraph starts with capital letter and ends with period; paragraphs may contain additional punctuation</td>
 	</tr>
