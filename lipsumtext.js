@@ -1,5 +1,5 @@
 Selenium.prototype.doLipsumText = function (options, varName) {
-    var length = 10, type = "words", useHtmlTags = false, opts = options.split("|"), i = 0;
+    var length = 5, type = "words", useHtmlTags = false, opts = options.split("|"), i = 0;
     for (i = 0; i < 3; i += 1) {
         if (opts[i] && opts[i].match(/^\d+$/)) {
             length = opts[i];
