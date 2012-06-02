@@ -55,6 +55,12 @@ Here are some examples of setting a variable:
 		<td>x</td>
 		<td>5 words; each word capitalized; may contain additional punctuation</td>
 	</tr>
+	<tr>
+		<td>lipsumText</td>
+		<td>10 words|wordcaps|nomarks</td>
+		<td>x</td>
+		<td>10 words; each word capitalized; will not contain any punctuation</td>
+	</tr>
 </table>
 
 Here is an example of using the variable we created above to insert the lorem ipsum text into a text field:
@@ -73,5 +79,4 @@ Here is an example of using the variable we created above to insert the lorem ip
 </table>
 
 # Future Improvements
-- add 'wordcaps' option to capitalize all words (useful for titles)
-- add 'nomarks' option to remove all punctuation remarks (useful for titles)
+- None (see git log for latest improvements)
