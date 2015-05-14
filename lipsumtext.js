@@ -1,4 +1,4 @@
-Selenium.prototype.doLipsumText = function (options, varName) {
+Selenium.prototype.doLipsumText = function (varName, options) {
     var length = 5, type = "word", useHtmlTags = false, useWordCaps = false, useMarks = true, opts = options.split("|"), i = 0;
     for (i = 0; i < opts.length; i += 1) {
         if (opts[i]) {

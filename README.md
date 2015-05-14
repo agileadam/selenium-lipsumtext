@@ -1,12 +1,12 @@
 # Installation
-1. [Install Selenium](http://seleniumhq.org/) in Firefox
+1. [Install Selenium IDE](http://seleniumhq.org/) in Firefox
 1. Open Selenium in Firefox by clicking *Tools > Selenium IDE*
 1. With the Selenium IDE window open, click *Options > Options*
-
-1. Add the full path to lipsumtext.js in the *Selenium Core extensions* field
-
-	TIP: You can specify multiple extensions. Simply separate each path with a comma.  
+1. Add the full path to lipsumtext.js in the *Selenium Core extensions* field (you can use multiple extensions separated with commas)
 1. Test
+
+# Example
+![Example](https://raw.githubusercontent.com/agileadam/selenium-lipsumtext/master/example1.png)
     
 # Usage
 To use this extension you'll be creating a command that will set a variable. You can then use this variable later by other commands.
@@ -27,38 +27,38 @@ Here are some examples of setting a variable:
 	</tr>
 	<tr>
 		<td>lipsumText</td>
+		<td>myvarx</td>
 		<td>20 words</td>
-		<td>x</td>
 		<td>20 words; entire string starts with capital letter and ends with period; string may contain additional punctuation</td>
 	</tr>
 	<tr>
 		<td>lipsumText</td>
+		<td>myvarx</td>
 		<td>1 paragraph</td>
-		<td>x</td>
 		<td>1 paragraphs of 15 to 300 words; paragraph starts with capital letter and ends with period; paragraph may contain additional punctuation</td>
 	</tr>
 	<tr>
 		<td>lipsumText</td>
+		<td>myvarx</td>
 		<td>3 paragraphs</td>
-		<td>x</td>
 		<td>3 paragraphs of 15 to 300 words each; each paragraph starts with capital letter and ends with period; paragraphs may contain additional punctuation</td>
 	</tr>
 	<tr>
 		<td>lipsumText</td>
+		<td>myvarx</td>
 		<td>5 paragraphs|htmltags</td>
-		<td>x</td>
 		<td>5 paragraphs of 15 to 300 words each; paragraphs are wrapped in &lt;p&gt; tags; each paragraph starts with capital letter and ends with period; paragraphs may contain additional punctuation</td>
 	</tr>
 	<tr>
 		<td>lipsumText</td>
+		<td>myvarx</td>
 		<td>5 words|wordcaps</td>
-		<td>x</td>
 		<td>5 words; each word capitalized; may contain additional punctuation</td>
 	</tr>
 	<tr>
 		<td>lipsumText</td>
+		<td>myvarx</td>
 		<td>10 words|wordcaps|nomarks</td>
-		<td>x</td>
 		<td>10 words; each word capitalized; will not contain any punctuation</td>
 	</tr>
 </table>
@@ -74,7 +74,7 @@ Here is an example of using the variable we created above to insert the lorem ip
 	<tr>
 		<td>type</td>
 		<td>id=my-edit-field-value</td>
-		<td>${x}</td>
+		<td>${myvarx}</td>
 	</tr>
 </table>
 
