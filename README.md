@@ -1,3 +1,5 @@
+**UPDATE May 14, 2015** - If you've already been using this extension before now and you want to pull the latest code, you'll have to update your test suites; swap the targets and values in your lipsumText and lipsumTextAndWait commands. I realized it makes more sense for "Target" to be the variable you're saving, and "Value" to be the lipsum options. 
+
 # Installation
 1. [Install Selenium IDE](http://seleniumhq.org/) in Firefox
 1. Open Selenium in Firefox by clicking *Tools > Selenium IDE*
