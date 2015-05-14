@@ -37,7 +37,7 @@ Here are some examples of setting a variable:
 		<td>lipsumText</td>
 		<td>myvarx</td>
 		<td>1 paragraph</td>
-		<td>1 paragraphs of 15 to 300 words; paragraph starts with capital letter and ends with period; paragraph may contain additional punctuation</td>
+		<td>1 paragraph of 15 to 300 words; paragraph starts with capital letter and ends with period; paragraph may contain additional punctuation</td>
 	</tr>
 	<tr>
 		<td>lipsumText</td>
